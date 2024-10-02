@@ -5,7 +5,6 @@ pipeline {
         stage('maven Build'){
           steps{
             sh '''  mvn clean
-	    	    mvn test
 	  	    mvn package
     		'''
           }
